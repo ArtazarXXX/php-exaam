@@ -34,10 +34,7 @@
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                   '.$_SESSION["user"]["full_name"].'
                                 </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            
-                                  <a class="dropdown-item" href="#">Настройки</a>
-                                  <div class="dropdown-divider"></div>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">                        
                                   <a class="dropdown-item" href="includes/logout.php">Выход</a>
                                 </div>
                               </li></ul>';

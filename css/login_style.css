@@ -1,0 +1,63 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.add_quiz{
+    display: flex;
+    justify-content: flex-end;
+}
+.head_quiz{
+    display: flex;
+    justify-content: space-between;
+}
+.form_make{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fields{
+    display: flex;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    padding: 15px;
+    border: 2px solid #0cbbf0;
+}
+input[type="text"], input[type="password"]{
+    width: 200px;
+    border: 2px solid #0cbbf0;
+    height: 30px;
+}
+button{
+    height: 50px;
+    width: 200px;
+    border: 0;
+    background: #21b1d1;
+    color: white;
+}
+
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 8vh;
+    justify-content: space-between;
+}
+.add_quiz{
+    margin: 10px;
+    border: 1 px solid black;
+}
