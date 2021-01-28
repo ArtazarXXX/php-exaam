@@ -70,14 +70,14 @@
                 $dop = mysqli_query($connect, "SELECT * FROM `answ` WHERE title = '$title';");
                 echo "Вопросы: ";
                 echo $users['exiter'];
-                echo "<h5>Ответы людей(а может и нет):</h5>";
+                echo "<h5>Ответы людей:</h5>";
                 while($text = mysqli_fetch_assoc($dop)){
                     $answ = $text['answers'];
                     $exp_answ = explode(",", $answ);
                     for($kek=0;$kek< count($exp_answ) - 2; $kek++){
                         echo "<p>".$exp_answ[$kek]."</p>";
                     }
-                    echo "____________________";
+                    echo "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _";
                 }
             }
           }

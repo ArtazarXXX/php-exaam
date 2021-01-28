@@ -15,7 +15,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/main_style.css">
+    <link rel="stylesheet" href="css/main_style.css?<?echo time();?>">
     <title>Quiz</title>
 </head>
 <body>
@@ -26,7 +26,7 @@
         <form action="data_form.php" method="post" class = "form_make">
             <div>
                 <label for="quiz_name">Название опроса</label>
-                <input type="text" required name = "quiz_name" id = "quiz_name">
+                <input type="text" required name = "quiz_name" id = "quiz_name" placeholder="Введите название опроса">
             </div>
             <?php
                 if(isset($_SESSION['test'])){

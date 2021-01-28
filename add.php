@@ -20,8 +20,8 @@
     }
     else{
         array_push($array, "<div class = 'fields'>
-                                        <label for = 'naming$id'>Название поля</label>
-                                        <input type='text' name = 'naming$id' id = 'naming$id'>
+                                        <input type='text' name = 'naming$id' id = 'naming$id' placeholder='Название поля'>
+                                        <label for = 'mem$id'>Укажите тип поля</label>
                                         <select name = 'mem$id'>
                                             <option value='chislo'>Число</option>
                                             <option value='pol_chilo'>Положительное число</option>

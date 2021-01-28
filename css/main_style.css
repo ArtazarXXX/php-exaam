@@ -1,3 +1,6 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
 .add_quiz{
     display: flex;
     justify-content: flex-end;
@@ -18,14 +21,15 @@
 input[type="text"], input[type="password"]{
     width: 200px;
     border: 2px solid #0cbbf0;
-    background-color: wheat;
     height: 30px;
+    padding:10px;
+    margin:10px 0;
 }
 button{
     height: 50px;
     width: 200px;
     border: 0;
-    background: #0cbbf0;
+    background: #23db36;
     color: white;
 }
 
